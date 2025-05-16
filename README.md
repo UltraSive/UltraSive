@@ -9,6 +9,9 @@ I'm a full-stack developer who enjoys building web apps, network control and dat
 ### 📦 [**Kubernetes Single Definition App Operator**](https://github.com/UltraSive/single-definition-app-operator)
 A Kubernetes Kubebuilder operator that controls the state of other primitive resource types based on a easy to patch single custom resource definition. This is particularly designed for when I operated a app hosting platform on a wide kubernetes cluster spanning multiple regions so that i could use a single CRD and host an app across multiple regions.
 
+### 📦 [**Libvirt QEMU Hypervisor Controller**](https://github.com/UltraSive/libvirt-hypervisor-controller)
+I built a stateless way to control a hypervisor node running libvirt to provision, modify, and post common actions to from a central control plane over a REST API with some helpful features like caching of remote images for a week before replacing it with a new one in order to speed up provisioning.
+
 ### 📦 [**L4 TCP Geolocation Load Balancer**](https://github.com/UltraSive/L4GeoLB)
 Rust based layer 4 proximity based multiple instance load balancer primarily for TCP connections.
 
