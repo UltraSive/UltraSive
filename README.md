@@ -18,6 +18,9 @@ Rust based layer 4 proximity based multiple instance load balancer primarily for
 ### 📦 [**Ghostwire**](https://github.com/packetware/ghostwire/tree/sive)
 I have a branch in Ghostwire used to improve the performance and make the YAML schema more simple to understand by using CIDRs and port ranges. It is based on the Rust Aya eBPF framework to control XDP and TC application by expanding the rules defined in the YAML definition to five tuples and to allow the reverse flows of outgoing connections to automatically be allowed back in when you define a default drop all on a destination address on the ingress interface.
 
+### 📦 [**VNC Websockify Proxy Controller**](https://github.com/UltraSive/vnc-websockify-proxies)
+For each node running VMs to give access directly to the console of the VM we employ noVNC which turns a tcp connection into a websocket and displays it with Javascript. This will fetch the current configuration of port mappings from a web server and allow for CRUD operations for updating the proxies while its running.
+
 ### 📦 [**Fortified Firewall**](https://github.com/UltraSive/fortified-firewall)
 This is a project I started based on Cilium's ebpf-go control plane for writing XDP ingress/TC egress firewalls and I planned on using Svelte 5/Sveltekit and a Postgres database as a additional UI layer for programming the control plane. 
 
