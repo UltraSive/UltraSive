@@ -44,6 +44,7 @@ I build a Svelte 4/Sveltekit Rust wipe scheduler that works based on a HTTP base
 ## 📫 Get in Touch
 
 - Twitter: [@ultrasive](https://twitter.com/ultrasive)
+- [LinkedIn](https://www.linkedin.com/in/ultrasive)
 
 ---
 *Thanks for stopping by! ⭐ If you like my work, consider giving a star or following me!*
