@@ -6,6 +6,9 @@ I'm a full-stack developer who enjoys building web apps, network control and dat
 
 ## 🛠️ Projects
 
+### 📦 [**Sive Chat**](https://github.com/UltraSive/sive-chat)
+A multi-model LLM chat interface application written in Svelte/Kit w/ Convex + Drizzle (Postgres) for the T3 Chat Cloneathon. You can sign in via Google OpenID Connect and chat data such as messages are streamed across devices when state changes. See live: [https://chat.ultrasive.com](https://chat.ultrasive.com)
+
 ### 📦 [**Kubernetes Single Definition App Operator**](https://github.com/UltraSive/single-definition-app-operator)
 A Kubernetes Kubebuilder operator that controls the state of other primitive resource types based on a easy to patch single custom resource definition. This is particularly designed for when I operated a app hosting platform on a wide kubernetes cluster spanning multiple regions so that i could use a single CRD and host an app across multiple regions.
 
