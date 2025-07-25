@@ -15,6 +15,9 @@ A Kubernetes Kubebuilder operator that controls the state of other primitive res
 ### 📦 [**Libvirt QEMU Hypervisor Controller**](https://github.com/UltraSive/libvirt-hypervisor-controller)
 I built a stateless way to control a hypervisor node running libvirt to provision, modify, and post common actions to from a central control plane over a REST API with some helpful features like caching of remote images for a week before replacing it with a new one in order to speed up provisioning.
 
+### 📦 [**HTTP V8 Isolates**](https://github.com/UltraSive/http-v8-isolates)
+This is a way to execute ephemeral JavaScript and WebAssembly code contexts in a V8 shared runtime environment based on http request triggers. It grabs the code from object storage based on the DNS A record of the request.
+
 ### 📦 [**L4 TCP Geolocation Load Balancer**](https://github.com/UltraSive/L4GeoLB)
 Rust based layer 4 proximity based multiple instance load balancer primarily for TCP connections.
 
