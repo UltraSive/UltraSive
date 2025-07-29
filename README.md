@@ -39,9 +39,6 @@ This was my first ever XDP control plane based on Dropbox's framework for eBPF a
 ### 📦 [**goFilesAPI**](https://github.com/packetware/goFilesAPI)
 This is a project similar to the Pterodactyl Wings daemon based on the Golang Gin web framework that will allow you to query details about a filesystem and make changes to it over a HTTP API. I used this with containers in order to build a app hosting platform with a clean web UI to allow users to make changes to the volumes attached to their services by having a instance of this binary bound to every volume.
 
-### 📦 [**SvelteKit Looking Glass**](https://github.com/UltraSive/SvelteKit-Looking-Glass)
-This is a project to create a network looking glass across multiple servers by using a monolith that can act as both a API to query its own endpoint and a frontend that can query other monoliths to get master trace route ping details to arbitrary endpoints from the monolith host.
-
 ### 📦 [**GoA2sCache**](https://github.com/UltraSive/GoA2sCache)
 This is a simple steam A2s server list query cache to prevent resource exhaustion attacks by keeping a copy of the reply in a json object for a server and then also acting as a middleman to deliver the cached request to anyone querying the port.
 
