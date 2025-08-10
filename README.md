@@ -33,8 +33,8 @@ For each node running VMs to give access directly to the console of the VM we em
 ### 📦 [**Fortified Firewall**](https://github.com/UltraSive/fortified-firewall)
 This is a project I started based on Cilium's ebpf-go control plane for writing XDP ingress/TC egress firewalls and I planned on using Svelte 5/Sveltekit and a Postgres database as a additional UI layer for programming the control plane. 
 
-### 📦 [**GoeBPF XDP Simple Firewall**](https://github.com/UltraSive/GoeBPF-XDP-Simple-Firewall)
-This was my first ever XDP control plane based on Dropbox's framework for eBPF applications. Although there is no schema to define firewall rules you can still apply them in the golang control plane and attach it to a arbitrary Linux interface.
+### 📦 [**eBPF TC Traffic Accounting**](https://github.com/UltraSive/eBPF-TC-Traffic-Accounting)
+This create a prometheus text format exporter for monitoring how much bandwidth and packets are going to a specific destination IP on ingress an opposite for egress. Very helpful for exporting data I use to clickhouse when scraping it intermittantly and I can later display it in a chart.
 
 ### 📦 [**goFilesAPI**](https://github.com/packetware/goFilesAPI)
 This is a project similar to the Pterodactyl Wings daemon based on the Golang Gin web framework that will allow you to query details about a filesystem and make changes to it over a HTTP API. I used this with containers in order to build a app hosting platform with a clean web UI to allow users to make changes to the volumes attached to their services by having a instance of this binary bound to every volume.
